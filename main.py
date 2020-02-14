@@ -1,15 +1,12 @@
-from classA import testA
-from classB import testB
+from FactoryLogger import Logger
 
 
 def main():
-    a = testA()
-    result = a.dormir()
-    b = testB()
-    result2 = b.comer()
-
-    print(result)
-    print(result2)
+    __msg = str
+    msg = 'hola'
+    factory_miss: Logger = Logger()
+    func = factory_miss.return_result(3)
+    func.log(msg=msg)
 
 
 if __name__ == "__main__":
