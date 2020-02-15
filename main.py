@@ -3,7 +3,7 @@ from FactoryLogger import Logger
 
 def main():
     __msg = str
-    msg = 'hola'
+    msg = 'Real Madrid'
     factory_miss: Logger = Logger()
     func = factory_miss.return_result(3)
     func.log(msg=msg)

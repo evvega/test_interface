@@ -1,10 +1,10 @@
 from LoggerInterface import ImplementLogger
 import psycopg2
 
-DB_HOST = 's-marroquinera-kong-rds.cpgzdstpkoee.us-east-1.rds.amazonaws.com'
-DB_NAME = 'kong_core'
-DB_USER = 'kong_core_app'
-DB_PASSWORD = 'kong_core_app_)<wn4_5MT9*Ep@4'
+DB_HOST = ''
+DB_NAME = ''
+DB_USER = ''
+DB_PASSWORD = '####'
 DB_PORT = '5432'
 
 
